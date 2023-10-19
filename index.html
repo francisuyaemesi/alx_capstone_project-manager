@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Project Manager</h1>
+        <p>Keep tack on your projects easily</p>
+    </header>
+
+    <main>
+        <section id="task-form">
+            <h2>Add a Task</h2>
+            <form id="add-task-form">
+                <label for="task-title">Task Title:</label>
+                <input type="text" id="task-title" required>
+
+                <label for="task-description">Task Description:</label>
+                <textarea id="task-description"></textarea>
+
+                <label for="task-due-date">Due Date:</label>
+                <input type="date" id="task-due-date">
+
+                <button type="submit">Add Task</button>
+            </form>
+        
