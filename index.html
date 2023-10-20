@@ -14,17 +14,34 @@
 
     <main>
         <section id="task-form">
-            <h2>Add a Task</h2>
+            <h2>Add a Project</h2>
             <form id="add-task-form">
-                <label for="task-title">Task Title:</label>
+                <label for="task-title">Project Title:</label>
                 <input type="text" id="task-title" required>
 
-                <label for="task-description">Task Description:</label>
+                <label for="task-description">Project Description:</label>
                 <textarea id="task-description"></textarea>
 
                 <label for="task-due-date">Due Date:</label>
                 <input type="date" id="task-due-date">
 
-                <button type="submit">Add Task</button>
+                <button type="submit">Add Project</button>
             </form>
-        
+        </section>
+
+        <section id="task-list">
+            <h2>Project List</h2>
+            <ul id="tasks">
+                <!-- Task items will be added here -->
+            </ul>
+           
+        </section>
+    </main>
+
+    <footer>
+        <p><small>&copy; Francis_Uyaemesi 2023</small></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
